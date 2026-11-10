@@ -1,0 +1,29 @@
+{
+  "window_title": "Cyberpunk 2077",
+  "monitor": 1,
+  "captures_keep": 30,
+
+  "ocr_engine": "auto",
+  "ocr_languages": "fra+eng",
+  "tesseract_cmd": "C:\\Program Files\\Tesseract-OCR\\tesseract.exe",
+  "ocr_min_confidence": 0.5,
+
+  "persona": "johnny",
+  "ai_provider": "openrouter",
+  "openrouter_api_key": "",
+  "openrouter_model": "google/gemma-4-31b-it:free",
+  "openrouter_fallback_models": ["nvidia/nemotron-3.5-super-vl:free", "openrouter/free"],
+  "ai_timeout": 60,
+  "openrouter_max_tokens": 4096,
+
+  "gemini_api_key": "",
+  "gemini_model": "gemini-2.5-flash",
+  "gemini_temperature": 0.6,
+  "gemini_max_tokens": 1024,
+  "gemini_thinking_budget": 0,
+  "gemini_image_max_width": 1280,
+  "gemini_timeout": 40,
+  "language": "français",
+
+  "tts_engine": "sapi"
+}

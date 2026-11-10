@@ -1,0 +1,16 @@
+mss>=9.0
+Pillow>=10.0
+# OCR: RapidOCR works out of the box (models included).
+# For better French accents, install Tesseract instead and set "ocr_engine": "tesseract" (see README).
+rapidocr>=3.0
+onnxruntime>=1.20
+pytesseract>=0.3.10
+# Voice questions (push-to-talk): microphone + local speech-to-text.
+# The Whisper model (~460 MB for "small") downloads on first start.
+sounddevice>=0.4
+numpy>=1.24
+faster-whisper>=1.0
+# NVIDIA GPU for speech-to-text (~1.2 GB). With the game running, the CPU is too busy
+# (~35 s per question on a 4-core CPU vs ~2 s on the GPU). Harmless without an NVIDIA card.
+nvidia-cublas-cu12
+nvidia-cudnn-cu12>=9,<10

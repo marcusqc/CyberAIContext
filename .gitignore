@@ -1,0 +1,8 @@
+companion/.venv/
+companion/companion_config.json
+companion/__pycache__/
+ipc/*
+!ipc/.keep
+captures/*
+!captures/.keep
+*.pyc
